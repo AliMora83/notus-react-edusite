@@ -14,35 +14,28 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                Notus React - A beautiful extension for Tailwind CSS.
+                IDBS + NAMKA Online Classes.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Notus React is Free and Open Source. It does not change any of
-                the CSS from{" "}
-                <a
-                  href="https://tailwindcss.com/?ref=creativetim"
-                  className="text-blueGray-600"
-                  target="_blank"
-                >
-                  Tailwind CSS
-                </a>
-                . It features multiple HTML elements and it comes with dynamic
-                components for ReactJS, Vue and Angular.
+                IDBS Online helps you build
+                business-critical skills in Tech
+                through cohort-based live courses
+                by leading industry experts.
               </p>
               <div className="mt-12">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-index"
+                  href="/"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
+                  href="/"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   target="_blank"
                 >
-                  Github Star
+                  Contact Us
                 </a>
               </div>
             </div>
@@ -51,7 +44,10 @@ export default function Index() {
 
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
-          src={require("assets/img/pattern_react.png").default}
+          src={
+            require("assets/img/pattern_react.png")
+              .default
+          }
           alt="..."
         />
       </section>
@@ -101,9 +97,12 @@ export default function Index() {
                     Great for your awesome project
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
+                    Putting together a page has
+                    never been easier than
+                    matching together pre-made
+                    components. From landing pages
+                    presentation to login areas,
+                    you can easily customise and
                     built your pages.
                   </p>
                 </blockquote>
@@ -122,8 +121,9 @@ export default function Index() {
                         CSS Components
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Notus React comes with a huge number of Fully Coded CSS
-                        components.
+                        Notus React comes with a
+                        huge number of Fully Coded
+                        CSS components.
                       </p>
                     </div>
                   </div>
@@ -136,8 +136,10 @@ export default function Index() {
                         JavaScript Components
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
+                        We also feature many
+                        dynamic components for
+                        React, NextJS, Vue and
+                        Angular.
                       </p>
                     </div>
                   </div>
@@ -148,10 +150,14 @@ export default function Index() {
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
+                      <h6 className="text-xl mb-1 font-semibold">
+                        Pages
+                      </h6>
                       <p className="mb-4 text-blueGray-500">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
+                        This extension also comes
+                        with 3 sample pages. They
+                        are fully coded so you can
+                        start working instantly.
                       </p>
                     </div>
                   </div>
@@ -164,8 +170,10 @@ export default function Index() {
                         Documentation
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Built by developers for developers. You will love how
-                        easy is to to work with Notus React.
+                        Built by developers for
+                        developers. You will love
+                        how easy is to to work
+                        with Notus React.
                       </p>
                     </div>
                   </div>
@@ -185,8 +193,10 @@ export default function Index() {
                 CSS Components
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                Every element that you need in a product comes built in as a
-                component. All components fit perfectly with each other and can
+                Every element that you need in a
+                product comes built in as a
+                component. All components fit
+                perfectly with each other and can
                 have different colours.
               </p>
               <div className="block pb-6">
@@ -229,32 +239,50 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
                   alt="..."
-                  src={require("assets/img/component-btn.png").default}
+                  src={
+                    require("assets/img/component-btn.png")
+                      .default
+                  }
                   className="w-full align-middle rounded absolute shadow-lg max-w-100-px z-3 left-145-px -top-29-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-profile-card.png").default}
+                  src={
+                    require("assets/img/component-profile-card.png")
+                      .default
+                  }
                   className="w-full align-middle rounded-lg absolute shadow-lg -top-160-px left-260-px max-w-210-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-info-card.png").default}
+                  src={
+                    require("assets/img/component-info-card.png")
+                      .default
+                  }
                   className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px -top-225-px left-40-px z-2"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-info-2.png").default}
+                  src={
+                    require("assets/img/component-info-2.png")
+                      .default
+                  }
                   className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-menu.png").default}
+                  src={
+                    require("assets/img/component-menu.png")
+                      .default
+                  }
                   className="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-btn-pink.png").default}
+                  src={
+                    require("assets/img/component-btn-pink.png")
+                      .default
+                  }
                   className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
                 />
               </div>
@@ -369,12 +397,16 @@ export default function Index() {
                 Javascript Components
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                In order to create a great User Experience some components
-                require JavaScript. In this way you can manipulate the elements
-                on the page and give more options to your users.
+                In order to create a great User
+                Experience some components require
+                JavaScript. In this way you can
+                manipulate the elements on the
+                page and give more options to your
+                users.
               </p>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                We created a set of Components that are dynamic and come to help
+                We created a set of Components
+                that are dynamic and come to help
                 you.
               </p>
               <div className="block pb-6">
@@ -426,9 +458,12 @@ export default function Index() {
                   Complex Documentation
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
+                  This extension comes a lot of
+                  fully coded examples that help
+                  you get started faster. You can
+                  adjust the colors and also the
+                  programming language. You can
+                  change the text and images and
                   you're good to go.
                 </p>
                 <ul className="list-none mt-6">
@@ -441,7 +476,8 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Built by Developers for Developers
+                          Built by Developers for
+                          Developers
                         </h4>
                       </div>
                     </div>
@@ -455,7 +491,8 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Carefully crafted code for Components
+                          Carefully crafted code
+                          for Components
                         </h4>
                       </div>
                     </div>
@@ -469,7 +506,8 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Dynamic Javascript Components
+                          Dynamic Javascript
+                          Components
                         </h4>
                       </div>
                     </div>
@@ -486,7 +524,10 @@ export default function Index() {
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={require("assets/img/documentation.png").default}
+                src={
+                  require("assets/img/documentation.png")
+                    .default
+                }
               />
             </div>
           </div>
@@ -494,10 +535,14 @@ export default function Index() {
 
         <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
-            <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
+            <h2 className="font-semibold text-4xl">
+              Beautiful Example Pages
+            </h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Notus React is a completly new product built using our past
-              experience in web templates. Take the examples we made for you and
+              Notus React is a completly new
+              product built using our past
+              experience in web templates. Take
+              the examples we made for you and
               start playing with them.
             </p>
           </div>
@@ -518,7 +563,10 @@ export default function Index() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/login.jpg").default}
+                        src={
+                          require("assets/img/login.jpg")
+                            .default
+                        }
                       />
                     </div>
                   </Link>
@@ -533,7 +581,10 @@ export default function Index() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/profile.jpg").default}
+                        src={
+                          require("assets/img/profile.jpg")
+                            .default
+                        }
                       />
                     </div>
                   </Link>
@@ -548,7 +599,10 @@ export default function Index() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/landing.jpg").default}
+                        src={
+                          require("assets/img/landing.jpg")
+                            .default
+                        }
                       />
                     </div>
                   </Link>
@@ -578,12 +632,15 @@ export default function Index() {
                 >
                   Tailwind CSS
                 </a>{" "}
-                is an open source project we wanted to continue this movement
-                too. You can give this version a try to feel the design and also
+                is an open source project we
+                wanted to continue this movement
+                too. You can give this version a
+                try to feel the design and also
                 test the quality of the code!
               </p>
               <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">
-                Get it free on Github and please help us spread the news with a
+                Get it free on Github and please
+                help us spread the news with a
                 Star!
               </p>
               <a
@@ -627,7 +684,10 @@ export default function Index() {
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
               <p className="text-4xl text-center">
-                <span role="img" aria-label="love">
+                <span
+                  role="img"
+                  aria-label="love"
+                >
                   😍
                 </span>
               </p>
@@ -635,9 +695,12 @@ export default function Index() {
                 Do you love this Starter Kit?
               </h3>
               <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                Cause if you do, it can be yours now. Hit the buttons below to
-                navigate to get the Free version for your next project. Build a
-                new web app or give an old project a new look!
+                Cause if you do, it can be yours
+                now. Hit the buttons below to
+                navigate to get the Free version
+                for your next project. Build a new
+                web app or give an old project a
+                new look!
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <a
