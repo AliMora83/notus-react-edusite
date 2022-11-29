@@ -18,10 +18,12 @@ export default function FooterSmall(props) {
                 Copyright ©{" "}
                 {new Date().getFullYear()}{" "}
                 <a
-                  href="#"
+                  href="https://openmindi.co.za"
+                  target="_blank"
+                  rel="noreferrer"
                   className="text-white hover:text-blueGray-300 text-sm font-semibold py-1"
                 >
-                  Creative Tim
+                  Developed by Ali Mora
                 </a>
               </div>
             </div>
@@ -29,15 +31,9 @@ export default function FooterSmall(props) {
               <ul className="flex flex-wrap list-none md:justify-end  justify-center">
                 <li>
                   <a
-                    href="https://www.creative-tim.com?ref=nr-footer-small"
-                    className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
-                  >
-                    Creative Tim
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.creative-tim.com/presentation?ref=nr-footer-small"
+                    href="http://institutedbs.com/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
                   >
                     About Us
@@ -45,15 +41,9 @@ export default function FooterSmall(props) {
                 </li>
                 <li>
                   <a
-                    href="http://blog.creative-tim.com?ref=nr-footer-small"
-                    className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
-                  >
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/creativetimofficial/notus-react/blob/main/LICENSE.md?ref=nr-footer-small"
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
                   >
                     MIT License

@@ -133,7 +133,9 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=nr-footer"
+                        href="https://openmindi.co.za"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         Contact Us
                       </a>
@@ -154,7 +156,7 @@ export default function Footer() {
                   href="/"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
-                  Ali Mora
+                  Developed by Ali Mora
                 </a>
                 .
               </div>
