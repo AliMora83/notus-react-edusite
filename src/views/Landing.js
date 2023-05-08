@@ -74,20 +74,48 @@ export default function Landing() {
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                      <i className="fas fa-award"></i>
+                  <div className="p-4 flex-auto">
+                    <div className="text-center p-8 inline-flex items-center justify-center">
+                      <img
+                        alt="..."
+                        src="idbs_badge_02.png"
+                        className="align-middle mb-2"
+                      />
                     </div>
-                    <h6 className="text-xl font-semibold">
-                      Awarded Agency
-                    </h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Divide details about your
-                      product or agency work into
-                      parts. A paragraph
-                      describing a feature will be
-                      enough.
+                    <div className="m-4 justify-center">
+                      <p className="text-sm text-blueGray-500">
+                        BASIC PACKAGE
+                      </p>
+                      <h6 className="text-xl font-semibold">
+                        Foundation Certification
+                      </h6>
+                      <hr className="pb-2 mt-2" />
+                    </div>
+                    <p className="mt-2 mb-4 text-blueGray-500 text-sm">
+                      Digital Business Strategy:
+                      Leveraging Emerging
+                      Technologies (IOT, AI and
+                      AR) Foundation CDTF
+                      Certificate
                     </p>
+                    <div className="flex justify-center mt-6 mb-12">
+                      <div className="text-center">
+                        <a
+                          href="/Profile"
+                          className="bg-blueGray-800 border text-white active:bg-blueGray-600 text-xs font-semibold uppercase px-6 py-3 shadow hover:shadow-lg outline-none focus:outline-none mr-5 ease-linear transition-all duration-150 cursor-pointer"
+                        >
+                          Read more
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="/Profile"
+                          className=" border-black border text-blueGray-600 active:bg-blueGray-600 text-xs font-bold uppercase px-6 py-3 hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        >
+                          $10
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
