@@ -16,7 +16,7 @@ export default function Landing() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+                "url('https://images.unsplash.com/photo-1500731250117-4b0cbb8b276a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1968&q=80')",
             }}
           >
             <span
@@ -28,14 +28,18 @@ export default function Landing() {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl">
+                  <h1 className="text-white font-semibold text-3xl">
                     OUR PROGRAM PRICES
                   </h1>
-                  <p className="mt-4 text-lg text-blueGray-200">
-                    The Institute for Digital
-                    Business Strategy (IDBS) is a
-                    future driven organisation
-                    which facilitates
+                  <p className="mt-4 text-base text-blueGray-200">
+                    The Institute for
+                    <strong>
+                      {" "}
+                      Digital Business Strategy
+                      (IDBS)
+                    </strong>{" "}
+                    is a future driven
+                    organisation which facilitates
                     strategically channeled
                     digital approaches to business
                     challenges. It is our belief
@@ -72,13 +76,14 @@ export default function Landing() {
         <section className="pb-20 bg-blueGray-200 -mt-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
+              {/* Basic Package */}
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="p-4 flex-auto">
                     <div className="text-center p-8 inline-flex items-center justify-center">
                       <img
                         alt="..."
-                        src="idbs_badge_02.png"
+                        src="idbs_badge_03.png"
                         className="align-middle mb-2"
                       />
                     </div>
@@ -95,7 +100,8 @@ export default function Landing() {
                       Digital Business Strategy:
                       Leveraging Emerging
                       Technologies (IOT, AI and
-                      AR) Foundation CDTF
+                      AR)
+                      <br /> Foundation CDTF
                       Certificate
                     </p>
                     <div className="flex justify-center mt-6 mb-12">
@@ -110,51 +116,113 @@ export default function Landing() {
                       <div>
                         <a
                           href="/Profile"
-                          className=" border-black border text-blueGray-600 active:bg-blueGray-600 text-xs font-bold uppercase px-6 py-3 hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                          className=" border-black border text-blueGray-800 active:bg-blueGray-600 text-xs font-bold px-6 py-3 hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         >
-                          $10
+                          $10 pm
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div className="w-full md:w-4/12 px-4 text-center">
+              {/* Standard package */}
+              <div className="lg:pt-8 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-                      <i className="fas fa-retweet"></i>
+                  <div className="p-4 flex-auto">
+                    <div className="text-center p-8 inline-flex items-center justify-center">
+                      <img
+                        alt="..."
+                        src="idbs_badge_03.png"
+                        className="align-middle mb-2"
+                      />
                     </div>
-                    <h6 className="text-xl font-semibold">
-                      Free Revisions
-                    </h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Keep you user engaged by
-                      providing meaningful
-                      information. Remember that
-                      by this time, the user is
-                      curious.
+                    <div className="m-4 justify-center">
+                      <p className="text-sm text-blueGray-500">
+                        STANDARD PACKAGE
+                      </p>
+                      <h6 className="text-xl font-semibold">
+                        Foundation Certification +
+                        Executive Certification
+                        Courses
+                      </h6>
+                      <hr className="pb-2 mt-2" />
+                    </div>
+                    <p className="mt-2 mb-4 text-blueGray-500 text-sm">
+                      Digital Business Strategy
+                      Course: Beat the competition
+                      with the best strategy{" "}
+                      <br />
+                      Executive (CDTE) course
                     </p>
+                    <div className="flex justify-center mt-6 mb-12">
+                      <div className="text-center">
+                        <a
+                          href="/Profile"
+                          className="bg-blueGray-800 border text-white active:bg-blueGray-600 text-xs font-semibold uppercase px-6 py-3 shadow hover:shadow-lg outline-none focus:outline-none mr-5 ease-linear transition-all duration-150 cursor-pointer"
+                        >
+                          Read more
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="/Profile"
+                          className=" border-black border text-blueGray-800 active:bg-blueGray-600 text-xs font-bold px-6 py-3 hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        >
+                          $40 pm
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              {/* Premium Package */}
+              <div className="lg:pt-8 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-                      <i className="fas fa-fingerprint"></i>
+                  <div className="p-4 flex-auto">
+                    <div className="text-center p-8 inline-flex items-center justify-center">
+                      <img
+                        alt="..."
+                        src="idbs_badge_05.png"
+                        className="align-middle mb-2"
+                      />
                     </div>
-                    <h6 className="text-xl font-semibold">
-                      Verified Company
-                    </h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Write a few lines about each
-                      one. A paragraph describing
-                      a feature will be enough.
-                      Keep you user engaged!
+                    <div className="m-4 justify-center">
+                      <p className="text-sm text-blueGray-500">
+                        PREMIUM PACKAGE
+                      </p>
+                      <h6 className="text-xl font-semibold">
+                        Foundation Certification +
+                        Executive Certification
+                        Courses + Certified
+                        Digital Transformation
+                      </h6>
+                      <hr className="pb-2 mt-2" />
+                    </div>
+                    <p className="mt-2 mb-4 text-blueGray-500 text-sm">
+                      PM Part 1 — Project
+                      Challenges, Organizing,
+                      <br />
+                      Staffing and Learning
+                      Executive (CDTE) course
                     </p>
+                    <div className="flex justify-center mt-6 mb-12">
+                      <div className="text-center">
+                        <a
+                          href="/Profile"
+                          className="bg-blueGray-800 border text-white active:bg-blueGray-600 text-xs font-semibold uppercase px-6 py-3 shadow hover:shadow-lg outline-none focus:outline-none mr-5 ease-linear transition-all duration-150 cursor-pointer"
+                        >
+                          Read more
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="/Profile"
+                          className=" border-black border text-blueGray-800 active:bg-blueGray-600 text-xs font-bold px-6 py-3 hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        >
+                          $100 pm
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
